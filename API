@@ -1,14 +1,18 @@
 input form: 以Json表示之表格。
 
+以 udi = new UDICharts(); 建立udi物件
+udi.init( TableAsJson, 'divID'): 以表格資料及指定分區初始化udi物件。
+
 udi.inputChanged(inputJson): 更改繪製的來源表格。
 
-udi.putDownMakeCharts(): 強行關閉製圖視窗。
+udi.makeNewClick(): 開啟製圖視窗。
+
+udi.putDownMakeCharts(): 關閉製圖視窗。
+
 udi.udiFilter: 當前篩選狀態。
+
 udi.udiHighlight: 當前凸顯狀態。
 
-	getChartsArgument( )：將目前使用的圖組參數轉為String的形式輸出。
-	loadChartsArgument( string )：讀取圖組參數，與getChartsArgumeny( )並用，回到當時的圖組狀態。
-	inputChanged( json table )：當表格資料改變時調用。
-	editable( boolean )：預設為使用者可以打開圖表修改視窗。若是開發者希望以loadChartsArgumeny( )的方式，僅呈現設計好的互動圖組給使用者操作，而不希望讓使用者修改圖表時，可以調用此方法，移除修改入口。
-	makeChart( )：讓開發者可以附加於botton或是其他函式，其功能為打開製圖視窗，以創立新的圖表。
-	stateReset( )：讓開發者可以附加於botton或是其他函式，其功能為將互動行為歸零重製。
+udi.stateReset(): 重設互動狀態。
+
+
