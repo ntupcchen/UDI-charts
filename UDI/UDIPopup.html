@@ -1,0 +1,320 @@
+<div id="divHeader">
+
+
+    User Design Interactive Charts</div>
+<div id="divUDISelectList" class="col-3">
+    <h1 id="SelectListTitle"></h1>
+
+    <form name=myFormG>
+
+        <p id="xP">
+            <font id="fontSelectorX" class="fontSelector">重要維度一 </font>
+            <select id="Gx"></select>
+            <font id="guideX" class='udiGuide' style="color:green"></font>
+        </p>
+        <br>
+        <!--<select id= "xx"></select><br>-->
+        <p id='yP'>
+            <font id="fontSelectorY" class="fontSelector"> 重要維度二 </font>
+            <select id="Gy"></select>
+            <font id="guideY" class='udiGuide' style="color:green"></font>
+        </p>
+        <br>
+
+        <p id='yyP'>以統計值作y軸：
+            <select id='Gyy'>
+                <option value="null">null </option>
+                <option value="count">count x軸</option>
+                <option value="proportion">count x數量並取百分比</option>
+                <!--<option value="median">median</option>-->
+                <option value="sum">以x為類別，對y取sum(y必須為數值型態)</option>
+                <option value="percent">以x為類別，對y加總取百分比(y必須為數值型態)</option>
+                <option value="mean">以x為類別，對y取平均值(y必須為數值型態)</option>
+            </select>
+            <br>
+        </p>
+
+        <p id='zP'>
+            <font id="fontSelectorZ" class='fontSelector'>重要維度三</font>
+            <select id="Gz"></select>
+            <font id="guideZ" class='udiGuide' style="color:green"></font>
+            <br>
+        </p>
+
+        <p id='colorP'>顏色依據:
+            <select id="Gcolor"></select>
+            <br>
+        </p>
+        <p id='toneP'>色調:
+            <select id='Gtone'>
+                <option value='0'>預設</option>
+                <option value='1'>鮮豔</option>
+                <option value='2'>藍</option>
+                <option value='3'>橘</option>
+                <option value='4'>綠</option>
+                <option value='5'>紫</option>
+            </select>
+            <br>
+        </p>
+
+        <p id="sizeP"> SIZE:
+            <select id="Gsize">
+                <option value=0>不設定</option>
+                <option value=2>2</option>
+                <option value=4>4</option>
+                <option value=6>6</option>
+                <option value=10>10</option>
+            </select>
+            <br>
+        </p>
+
+        <p id="RadiusP">半徑:
+            <select id="GRadius">
+                <option value=1>1</option>
+                <option value=0.8>0.8</option>
+                <option value=0.6>0.6</option>
+                <option value=0.4>0.4</option>
+            </select>
+            <br>
+        </p>
+
+        <p id="IRadiusP">內半徑:
+            <select id="GIRadius">
+                <option value=0.0>0.0</option>
+                <option value=0.3>0.3</option>
+                <option value=0.5>0.5</option>
+            </select>
+            <br>
+        </p>
+
+        <p id="hP"> 圖形大小:
+            <select id="Gh">
+                    <option value=150>tiny(150)</option>
+                <option selected="selected" value=300>Small(300)</option>
+                <option value=450>Medium(450)</option>
+                <option value=600>Large(600)</option>
+            </select>
+            <br>
+        </p>
+
+    </form>
+
+    <button type="button" class="btn btn-success udiIconShowDetail" id="icon_udiDeSize">更多設定
+
+    </button>
+
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#udiDetailSelector" aria-expanded="false"
+        aria-controls="udiDetailSelector">加入功能</button>
+
+        <button type="button" class="btn btn-primary" id="buttonMakePreview">預覽圖表</button>
+
+    <div id="udiDetailSelector" class="collapse">
+        <div id="udiAccordion">
+
+            <div class="card">
+                <div class="card-header" id="udiHeading_PrivateFilter">
+                    <h5 class="mb-0">
+                        <input type="checkbox" class='Cbx_De' id="Cbx_udiPrivateFilter" value="">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#udiCollapse_PrivateFilter" aria-expanded="false" aria-controls="udiCollapse_PrivateFilter">
+                            私有篩選
+                        </button>
+                        <img src="UDI/icons/right-arrow.svg" class="udiIconShowDetail" id="icon_udiPrivateFilter" title="設定private filter" width=25px
+                            height="25px">
+                    </h5>
+                </div>
+
+                <div id="udiCollapse_PrivateFilter" class="collapse" aria-labelledby="udiHeading_PrivateFilter" data-parent="#udiAccordion">
+                    <div class="card-body">
+                        為本圖表限定範圍，以表較不同範圍的資料。
+                        <p class="card-body" id='udiDeState_PrivateFilter'> </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="udiHeading_DvSort">
+                    <h5 class="mb-0">
+                        <input type="checkbox" class='Cbx_De' id="Cbx_udiDvSort" value="">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#udiCollapse_DvSort" aria-expanded="false" aria-controls="udiCollapse_DvSort">
+                            排序
+                        </button>
+                        <img src="UDI/icons/right-arrow.svg" class="udiIconShowDetail" id="icon_udiDvSort" title="設定Sort" width=25px height="25px">
+                    </h5>
+                </div>
+                <div id="udiCollapse_DvSort" class="collapse" aria-labelledby="udiHeading_DvSort" data-parent="#udiAccordion">
+                    <div class="card-body">
+                        依照選擇維度排序幾何元素
+                        <p class="card-body" id='udiDeState_DvSort'> </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                    <div class="card-header" id="udiHeading_Slider">
+                        <h5 class="mb-0">
+                            <input type="checkbox" class='Cbx_De' id="Cbx_udiSlider" value="">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#udiCollapse_Slider" aria-expanded="false" aria-controls="udiCollapse_Slider">
+                                Slider
+                            </button>
+                            <img src="UDI/icons/right-arrow.svg" class="udiIconShowDetail" id="icon_udiSlider" title="設定Slider" width=25px height="25px">
+                        </h5>
+                    </div>
+                    <div id="udiCollapse_Slider" class="collapse" aria-labelledby="udiHeading_Slider" data-parent="#udiAccordion">
+                        <div class="card-body">
+                            透過滑動條選擇關注的資料範圍(私有，只對本圖作用)
+                            <p class="card-body" id='udiDeState_Slider'> </p>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                        <div class="card-header" id="udiHeading_DeBin">
+                            <h5 class="mb-0">
+                                <input type="checkbox" class='Cbx_De' id="Cbx_udiDeBin" value="">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#udiCollapse_DeBin" aria-expanded="false" aria-controls="udiCollapse_DeBin">
+                                    數據分箱
+                                </button>
+                                <img src="UDI/icons/right-arrow.svg" class="udiIconShowDetail" id="icon_udiDeBin" title="設定數據分箱" width=25px height="25px">
+                            </h5>
+                        </div>
+                        <div id="udiCollapse_DeBin" class="collapse" aria-labelledby="udiHeading_DeBin" data-parent="#udiAccordion">
+                            <div class="card-body">
+                                將數值型態的數據分成數據區段的"類別"型態資料，常用在直方圖
+                                <p class="card-body" id='udiDeState_DeBin'> </p>
+        
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+        </div>
+    </div>
+    <br>
+
+
+    <img src="UDI/icons/icon_01.svg" id="icon_Gback" title="找其他圖型" width=35px height="35px">
+    <img src="UDI/icons/icon_check.svg" id="icon_Gconfirm" title="完成圖表設定" width=35px height="35px">
+</div>
+
+
+
+<div id='UDIdetailDivs' style="width:23% ; float:left; display:none;">
+
+        <div class="card udiDetailCards" id='detail_udiDeSize' style="display:none;">
+                <div class="card-body">
+                    <h3 class="card-title">更多設定</h3><br>
+
+                    標題：　<input type="text" class="form-control" placeholder="圖形標題" id='udi_title_Text' value='Chart_Title_'><br>
+
+                    <p class="card-text" id='udiDeCardText_DeSize'>寬度:　
+                        <select class="form-control" id="udi_DeSize_selectList">
+                                <option value='98%'>100%</option>
+                                <option value='73%'>75%</option>
+                                <option value='64%'>66%</option>
+                                <option selected="selected" value='47%'>50%</option>
+                                <option value='31%'>33%</option>
+                                <option value='23%'>25%</option>
+                        </select><br>
+                        
+                        高度：　<input type="number" class="form-control" placeholder="圖形高度" id='udi_DeSize_Text' value=0 >
+                        <font class='udiGuide'>　()</font><br>
+
+                        <input type="checkbox"  id="Cbx_udi_DeTranspose" > X,Y軸交換<br>
+                        
+                        
+                    </p>
+                    <br>
+        
+                    
+                    <!-- <button type="button" class="btn btn-primary udiDetailConfirm" id='udiSaveDeSize' value='udiDeSize'>checked</button> -->
+                    <button type="button" class="btn btn-secondary udiDetailCancel" value='udiDeSize'>隱藏選單</button>
+                </div>
+            </div>
+
+
+
+    <div class="card udiDetailCards" id='detail_udiPrivateFilter' style="display:none;">
+        <div class="card-body">
+            <h3 class="card-title">私有篩選</h3><br>
+            <p class="card-text" id='udiDeCardText_PrivateFilter'>card-text</p>
+
+            <button type="button" class="btn btn-primary udiDetailConfirm" id='udiSavePrivateFilter' value='udiPrivateFilter'>checked</button>
+            <button type="button" class="btn btn-secondary udiDetailCancel" value='udiPrivateFilter'>隱藏選單</button>
+        </div>
+    </div>
+
+    <div class="card udiDetailCards" id='detail_udiDvSort' style="display:none;">
+        <div class="card-body">
+            <h3 class="card-title">資料排序</h3><br>
+            <p class="card-text" id='udiDeCardText_DvSort'>Sort By:
+                <select id="dvSort_selectList">
+                    <option value='second'>第二個維度</option>
+                    <option value='First'>第一個維度</option>
+                </select>
+                <font class='udiGuide'>　(適合使用數字維度)</font>
+            </p>
+            <br>
+
+            <input class="form-check-input" type="radio" name="DvSort_Radio" id="udi_dvSort_Radio1" value="ASC">小->大
+            <input class="form-check-input" type="radio" name="DvSort_Radio" id="udi_dvSort_Radio2" value="DESC" checked>大->小
+            <br>
+
+            <button type="button" class="btn btn-primary udiDetailConfirm" id='udiSaveDvSort' value='udiDvSort'>checked</button>
+            <button type="button" class="btn btn-secondary udiDetailCancel" value='udiDvSort'>隱藏選單</button>
+        </div>
+    </div>
+
+    <div class="card udiDetailCards" id='detail_udiSlider' style="display:none;">
+            <div class="card-body">
+                <h3 class="card-title">數據滑動條</h3><br>
+                <p class="card-text" id='udiDeCardText_Slider'>控制數據:
+                    <select id="udi_slider_selectList">
+                    </select>
+                    <br><font class='udiGuide'>　(請使用<b>數字維度</b>！)</font>
+                </p>
+                <br>
+    
+                <button type="button" class="btn btn-primary udiDetailConfirm" id='udiSaveSlider' value='udiSlider'>checked</button>
+                <button type="button" class="btn btn-secondary udiDetailCancel" value='udiSlider'>隱藏選單</button>
+            </div>
+        </div>
+
+        <div class="card udiDetailCards" id='detail_udiDeBin' style="display:none;">
+                <div class="card-body">
+                    <h3 class="card-title">數據分箱</h3><br>
+                    <p class="card-text" id='udiDeCardText_DeBin'>分箱維度:
+                        <select id="udi_DeBin_selectList">
+                            　<option value=1> 第一維度(ex:x.軸)</option>
+                             <option value=0> 第三維度</option>
+                        </select>
+                        <font class='udiGuide'>　(使用數字維度)</font>
+                        箱數：　<input type="number" placeholder="箱數" id='udi_DeBin_Text' value=5 min=2>
+                    </p>
+                    
+                    <br>
+        
+                    <button type="button" class="btn btn-primary udiDetailConfirm" id='udiSaveDeBin' value='udiDeBin'>checked</button>
+                    <button type="button" class="btn btn-secondary udiDetailCancel" value='udiDeBin'>隱藏選單</button>
+                </div>
+            </div>
+
+
+</div>
+
+<div id="divDetailGraphic" style="display:none;">
+</div>
+
+<div id="divSelectChartType">
+
+</div>
+
+
+
+<div id="divFooter">Produced by 台大資工Lab 303 in 2018
+    <img src="UDI/icons/icon_exit.svg" id="icon_Gexit" title="Leave Without Doing Anythings" width=20px height="20px">
+</div>
