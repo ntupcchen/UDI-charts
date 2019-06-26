@@ -1,7 +1,9 @@
-input form: 以Json表示之表格。
-
 以 udi = new UDICharts(); 建立udi物件
 udi.init( TableAsJson, 'divID'): 以表格資料及指定分區初始化udi物件。
+input form: 以Json表示之表格。
+
+如果更動UDI資料夾位址，請在初始時加入 UDI_folder_address: 
+udi.init( TableAsJson, 'divID', '.../UDI')
 
 udi.inputChanged(inputJson): 更改繪製的來源表格。
 
@@ -14,5 +16,3 @@ udi.udiFilter: 當前篩選狀態。
 udi.udiHighlight: 當前凸顯狀態。
 
 udi.stateReset(): 重設互動狀態。
-
-
