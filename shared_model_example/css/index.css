@@ -1,0 +1,11 @@
+body{
+	font-family: Microsoft JhengHei;
+}
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+/* hide jqgrid reset button */
+a#fbox_table_content_reset {
+    display: none;
+}
