@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>A basic example of User Design Interactive Charts</title>
+
+
+    <script src='UDI/lib/jquery-3.2.1.min.js'></script>
+	<script src="basic_example_UDIuse.js"></script>
+
+</head>
+<body>
+	<a href='javascript:void(0)' id='ex1'>"Countries_properties" example</a>　
+	<a href='javascript:void(0)' id='ex2'>"US presidents" example</a>　
+	<a href='javascript:void(0)' id='ex3'>"Global oil" example</a>
+
+	<div id='UDI' class='divComponentContainer' style="overflow: auto;border-style: solid;margin:5px;"></div>
+		<script>
+	$('#UDI').hide();
+	$('#ex1').click(exCountries);
+	$('#ex2').click(exPresident);
+	$('#ex3').click(exOil);
+
+	function exPresident(){
+		$.getJSON("example data/US presidents.json", function(json) {
+			udi.inputChanged(json); // this will show the info it in firebug console
+			$('#UDI').show('normal');
+		});
+	}
+
+	function exCountries(){
+		$.getJSON("example data/Countries_properties.json", function(json) {
+			udi.inputChanged(json); // this will show the info it in firebug console
+			$('#UDI').show('normal');
+		});
+	}
+
+	function exOil(){
+		$.getJSON("example data/global-oil-new.json", function(json) {
+			udi.inputChanged(json); // this will show the info it in firebug console
+			$('#UDI').show('normal');
+		});
+	}
+	
+	</script>
+</body>
+</html>	 
+
+
+     

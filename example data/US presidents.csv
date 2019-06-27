@@ -1,0 +1,45 @@
+Position,Name,Party,State of Birth,Born,Died,Religion,Age at inaguration,Age at death,Notes,Occupation,College,Years in office,Link,Term start,Term end
+1,Washington,Federalist,Virginia,2/22/1732,12/14/1799,Episcopalian,57,67,,Planter,None,8,georgewashington,1789,1797
+2,J. Adams,Federalist,Massachusetts,10/30/1735,7/4/1826,Unitarian,61,90,,Lawyer,Harvard,4,johnadams,1797,1801
+3,Jefferson,Democratic-Republican,Virginia,4/13/1743,7/4/1826,Deist,57,83,,"Planter, Lawyer",William and Mary,8,thomasjefferson,1801,1809
+4,Madison,Democratic-Republican,Virginia,3/16/1751,6/28/1836,Episcopalian,57,85,,Lawyer,Princeton,8,jamesmadison,1809,1817
+5,Monroe,Democratic-Republican,Virginia,4/28/1758,7/4/1831,Episcopalian,58,73,,Lawyer,William and Mary,8,jamesmonroe,1817,1825
+6,J. Q. Adams,Democratic-Republican,Massachusetts,7/11/1767,2/23/1848,Unitarian,57,80,,Lawyer,Harvard,4,johnquincyadams,1825,1829
+7,Jackson,Democratic,South Carolina,3/15/1767,6/8/1845,Presbyterian,61,78,,Lawyer,None,8,andrewjackson,1829,1837
+8,Van Buren,Democratic,New York,12/5/1782,7/24/1862,Reformed Dutch,54,79,,Lawyer,None,4,martinvanburen,1837,1841
+9,W. H. Harrison,Whig,Virginia,2/9/1773,4/4/1841,Episcopalian,68,68,Died in office,Soldier,Hampden-Sydney,0.8,williamhenryharrison,1841,1841
+10,Tyler,Whig,Virginia,3/29/1790,1/18/1862,Episcopalian,51,71,,Lawyer,William and Mary,4,johntyler,1841,1845
+11,Polk,Democratic,North Carolina,11/2/1795,6/15/1849,Methodist,49,53,,Lawyer,U. of North Carolina,4,jamespolk,1845,1849
+12,Taylor,Whig,Virginia,11/24/1784,7/9/1850,Episcopalian,64,65,Died in office,Soldier,None,1,zacharytaylor,1849,1850
+13,Fillmore,Whig,New York,1/7/1800,3/8/1874,Unitarian,50,74,,Lawyer,None,3,millardfillmore,1850,1853
+14,Pierce,Democratic,New Hampshire,11/23/1804,10/8/1869,Episcopalian,48,64,,Lawyer,Bowdoin,4,franklinpierce,1853,1857
+15,Buchanan,Democratic,Pennsylvania,4/23/1791,6/1/1868,Presbyterian,65,77,,Lawyer,Dickinson,4,jamesbuchanan,1857,1861
+16,Lincoln,Republican,Kentucky,2/12/1809,4/15/1865,Liberal,52,56,Assassinated in office,Lawyer,None,4,abrahamlincoln,1861,1865
+17,A. Johnson,Union,North Carolina,12/29/1808,7/31/1875,,56,66,,Tailor,None,4,andrewjohnson,1865,1869
+18,Grant,Republican,Ohio,4/27/1822,7/23/1885,Methodist,46,63,,Soldier,US Military Academy,8,ulyssessgrant,1869,1877
+19,Hayes,Republican,Ohio,10/4/1822,1/17/1893,Methodist,54,70,,Lawyer,Kenyon,4,rutherfordbhayes,1877,1881
+20,Garfield,Republican,Ohio,11/19/1831,9/19/1881,Disciples of Christ,49,49,Assassinated in office,Lawyer,Williams,0.5,jamesgarfield,1881,1881
+21,Arthur,Republican,Vermont,10/5/1829,11/18/1886,Episcopalian,50,56,,Lawyer,Union,3,chesterarthur,1881,1885
+22,Cleveland,Democratic,New Jersey,3/18/1837,1908/6/24,Presbyterian,47,71,,Lawyer,None,4,grovercleveland24,1885,1889
+23,B. Harrison,Republican,Ohio,8/20/1833,1901/3/13,Presbyterian,55,67,,Lawyer,Miami,4,benjaminharrison,1889,1893
+24,Cleveland,Democratic,New Jersey,3/18/1837,1908/6/24,Presbyterian,55,71,,Lawyer,None,4,grovercleveland22,1893,1897
+25,McKinley,Republican,Ohio,1/29/1843,1901/9/14,Methodist,54,58,Assassinated in office,Lawyer,Allegheny College,4,williammckinley,1897,1901
+26,T. Roosevelt,Republican,New York,10/27/1858,1919/1/6,Reformed Dutch,42,60,,Author,Harvard,8,theodoreroosevelt,1901,1909
+27,Taft,Republican,Ohio,9/15/1857,1930/3/8,Unitarian,51,72,,Lawyer,Yale,4,williamhowardtaft,1909,1913
+28,Wilson,Democratic,Virginia,12/28/1856,1924/2/3,Presbyterian,56,67,,Educator,Princeton,8,woodrowwilson,1913,1921
+29,Harding,Republican,Ohio,11/2/1865,1923/8/2,Baptist,55,57,Died in office,Editor,None,2,warrenharding,1921,1923
+30,Coolidge,Republican,Vermont,7/4/1872,1933/1/5,Congregationalist,51,60,,Lawyer,Amherst,6,calvincoolidge,1923,1929
+31,Hoover,Republican,Iowa,8/10/1874,1964/10/20,Quaker,54,90,,Engineer,Stanford,4,herberthoover,1929,1933
+32,F. D. Roosevelt,Democratic,New York,1/30/1882,1945/4/12,Episcopalian,51,63,Died in office,Lawyer,Harvard,12,franklindroosevelt,1933,1945
+33,Truman,Democratic,Missouri,5/8/1884,1972/12/26,Baptist,60,88,,Businessman,None,8,harrystruman,1945,1953
+34,Eisenhower,Republican,Texas,10/14/1890,1969/3/28,Presbyterian,62,78,,Soldier,US Military Academy,8,dwightdeisenhower,1953,1961
+35,Kennedy,Democratic,Massachusetts,1917/5/29,1963/11/22,Roman Catholic,43,46,Assassinated in office,Author,Harvard,3,johnfkennedy,1961,1963
+36,L. B. Johnson,Democratic,Texas,1908/8/27,1973/1/22,Disciples of Christ,55,64,,Teacher,Southwest Texas State,5,lyndonbjohnson,1963,1969
+37,Nixon,Republican,California,1913/1/9,1994/4/22,Quaker,56,81,Resigned,Lawyer,Whittier,5,richardnixon,1969,1974
+38,Ford,Republican,Nebraska,1913/7/14,2006/12/26,Episcopalian,61,,,Lawyer,Michigan,3,geraldford,1974,1977
+39,Carter,Democratic,Georgia,1924/10/1,,Southern Baptist,52,,,Businessman,US Naval Academy,4,jimmycarter,1977,1981
+40,Reagan,Republican,Illinois,1911/2/6,2004/6/5,Disciples of Christ,69,93,,Actor,Eureka College,8,ronaldreagan,1981,1989
+41,G.H.W. Bush,Republican,Massachusetts,1924/6/12,,Episcopalian,64,,,Businessman,Yale,4,georgehwbush,1989,1993
+42,Clinton,Democratic,Arkansas,1946/8/19,,Baptist,46,,,Lawyer,Georgetown,8,williamjclinton,1993,2001
+43,G. W. Bush,Republican,Connecticut,1946/7/6,,Methodist,54,,,Businessman,Yale,8,georgewbush,2001,2009
+44,Obama,Democratic,Hawaii,1961/8/4,,United Church of Christ,47,,,Lawyer,Columbia University,,barackobama,2009,2017
