@@ -1,6 +1,6 @@
 # UDI-charts
 統計圖組表格之互動視覺化工具
-A Visualization Tool - User Difined Iteractive Charts
+A Visualization Tool - User Design Iteractive Charts
 
 UDI組件中，主要參考運用了依《The Grammar of Graphics》(Leland Wilkinson著)為原則的函示庫G2.js( https://github.com/antvis/g2/ )，同時也引用了Jquery以及Bootstrap，使用MIT License，特別感謝開源元件幫助。
 
