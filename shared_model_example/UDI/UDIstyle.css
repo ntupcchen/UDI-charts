@@ -1,0 +1,183 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+        .black_overlay1 {
+            display: none;
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 500%;
+            background-color: black;
+            z-index: 901;
+            -moz-opacity: 0.8;
+            opacity: .80;
+            filter: alpha(opacity=80);
+        }
+
+        #divUDIhtml {
+            display: none;
+            position: relative;
+            
+            /*top: 0%;*/
+            left: 2.5%;
+            /* right: 5%; */
+            width: 95%;
+            height: 95%;
+            padding: 16px;
+            z-index: 902;
+            overflow: auto;
+
+            background: url(png/geometry.png);
+            font-family: 'Noto Sans TC', sans-serif;
+            /* font-size:15px; */
+            border-radius: 10px;
+        }
+        
+        #docuInteractiveCharts{
+            width:50%;
+            height:50%;
+            border: 2px solid grey;
+        }
+
+#divUDIhtml img{
+    margin: 5px;
+    vertical-align : middle;
+}
+
+
+
+#divUDIhtml #divHeader{
+    background-color:#97CBFF;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+    margin :5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+#divUDIhtml #divUDISelectList{
+
+    
+    width: 35%;
+    line-height:30px;
+    padding: 1%;
+    margin :0.5%;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+    float: left;
+}
+
+#divUDIhtml .udiDetailCards{
+    width:99%;
+    padding: 1%;
+    margin :1%;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+}
+
+#divUDIhtml #divFilter{
+
+    width:30%;
+    /*height:1000px;*/
+    text-align:center;
+    line-height:10px;
+    float:left;
+    margin :5px;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+}
+
+#divUDIhtml #divSelectChartType{
+    margin-left:10px;
+    margin-right:10px;
+    /*background-color:#F2FFF2;*/
+    text-align:center;
+    line-height:10px;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+    margin :5px;
+    width:95%;
+    left: 2.5%;
+    float:left;
+}
+
+#divUDIhtml .divChartType {
+    width: 31.5%;
+    /*height:30%;*/
+    float:left;
+    padding:10px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    margin: 5px;
+    background: white;
+}
+
+#divUDIhtml #divDetailGraphic{
+    float: right;
+    width: 70%;
+    /*height: 1000px;*/
+    line-height:30px;
+    padding: 10px;
+    margin :5px;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+    background: white;
+}
+
+/* #divUDIhtml #divDetailMaker{
+    float: left;
+    width: 20%;
+    height: 1000px;
+    line-height:30px;
+    padding: 10px;
+    margin :5px;
+    border: 2px solid #97CBFF;
+    border-radius: 10px;
+} */
+
+#divUDIhtml #divFooter{
+    clear:both;
+    background-color:#97CBFF;
+    height:80px;
+    text-align:center;
+    line-height:80px;
+    margin :5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+/* .divChartType_Ex {
+    left:2.5%;
+    width:95%;
+    height: 95%;
+} */
+.chartType_Ex {
+    text-align:center;
+    width:95%;
+    /* height: 95%; */
+}
+
+.divUDIcharts{
+    width:47%;
+    margin:0.5%;
+    float: left;
+}
+
+#divUDIhtml .udiGuide{
+    color:green;
+}
+
+.udiIcon{
+    margin:5px;
+}
+
+/* .udiDetailConfirm, .udiDetailCancel{
+    float: left;;
+} */
+
+#udiDetailSelector .Cbx_De{
+    zoom:2;
+    vertical-align: middle;
+}
+
