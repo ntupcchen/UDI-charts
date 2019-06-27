@@ -2,6 +2,8 @@
 統計圖組表格之互動視覺化工具
 A Visualization Tool - User Difined Iteractive Charts
 
+UDI組件中，主要參考運用了依《The Grammar of Graphics》(Leland Wilkinson著)為原則的函示庫G2.js(https://github.com/antvis/g2/)，同時也引用了Jquery以及Bootstrap，使用MIT License，特別感謝開源元件幫助。
+
 統計圖組表格之互動視覺化工具，其具有以下四點特性：
 •	介面化選擇參數（關心維度、統計函數、細節參數），讓使用者高自有度地設計圖形。 
 •	使用者可以自由生成、修改、刪除圖表，以形成不同圖表組合。 
